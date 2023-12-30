@@ -1,9 +1,14 @@
-build:
-  website: "example.com" # Replace with your website URL
+- title: Places to Visit
+  description: Explore these amazing places around the world!
+  places:
+    - name: Paris, France
+      description: The City of Love
+      link: https://github.com/places/paris
 
-github:
-  repository: "username/repository-name" # Replace with your GitHub username and repository name
+    - name: Tokyo, Japan
+      description: Bustling Metropolis
+      link: https://github.com/places/tokyo
 
-host:
-  github_pages: true
-  custom_domain: "build.io/{{ RANDOM_ID }}" # The RANDOM_ID will be replaced by a generated ID
+    - name: New York City, USA
+      description: The Big Apple
+      link: https://github.com/places/nyc
